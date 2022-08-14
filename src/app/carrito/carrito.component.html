@@ -1,0 +1,55 @@
+<div class="contenedorCarrito">
+
+  <div class="flotante">
+    <div>
+      <h1 class="titulo">Carrito de compras</h1>
+      <hr class="primHr">
+      <div class="plat">
+        <div>
+          <p>Tallarin Salteado</p>
+          <label for="cantidad">Cantidad</label>
+          <input value="1" type="number" id="cantidad" name="cantidad" min="1" max="5">
+        </div>
+        <h2>$2,50</h2>
+      </div>
+      <div class="plat">
+        <div>
+          <p>Crispy Chicken Wraps
+          </p>
+          <label for="cantidad">Cantidad</label>
+          <input value="1" type="number" id="cantidad" name="cantidad" min="1" max="5">
+        </div>
+        <h2>$4,50</h2>
+      </div>
+      <div class="plat">
+        <div>
+          <p>Chaulafan Especial
+          </p>
+          <label for="cantidad">Cantidad</label>
+          <input value="1" type="number" id="cantidad" name="cantidad" min="1" max="5">
+        </div>
+        <h2>$3,00</h2>
+      </div>
+      <div class="plat">
+        <div>
+          <p>Huarache Kobe</p>
+          <label for="cantidad">Cantidad</label>
+          <input value="1" type="number" id="cantidad" name="cantidad" min="1" max="5">
+        </div>
+        <h2>$5,00</h2>
+      </div>
+    </div>
+
+    <div class="precio">
+      <p>
+        Precio total:
+      </p>
+      <p>
+        $15,00
+      </p>
+    </div>
+    <button [routerLink]="['/pedidos']">
+      Volver
+    </button>
+  </div>
+</div>

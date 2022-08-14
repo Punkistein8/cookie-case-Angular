@@ -1,0 +1,6 @@
+<div class="app-pedidos">
+  <h1 class="titulo">Nuestros selectos platillos</h1>
+  <div class="contenedorPedidos">
+    <app-pedido-card [dataEntrante]=pedido *ngFor="let pedido of arregloPedidos"></app-pedido-card>
+  </div>
+</div>

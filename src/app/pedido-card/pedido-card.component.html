@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="product-img">
+    <img [src]='dataEntrante.imagen' height="420" width="327">
+  </div>
+  <div class="product-info">
+    <div class="product-text">
+      <h1>{{dataEntrante.nombre}}</h1>
+      <p>{{dataEntrante.descripcion}}</p>
+    </div>
+    <div class="product-price-btn">
+      <p>${{dataEntrante.precio}}</p>
+      <a [routerLink]="['/carrito']">
+        <button type="button">
+          Comprar
+        </button>
+      </a>
+    </div>
+  </div>
+</div>

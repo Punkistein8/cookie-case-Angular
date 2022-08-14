@@ -1,0 +1,55 @@
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: rgb(38, 38, 38);
+  background: linear-gradient(94deg, rgba(38, 38, 38, 1) 0%, rgba(42, 0, 0, 0.989233193277311) 100%);
+  border-bottom: solid 5px #e7e7e7;
+}
+
+.menu {
+  margin: 0;
+  padding: 22px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: 5em;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  rotate: 102deg;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.listaNav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 3em;
+  margin-right: 5em;
+}
+
+.listaNav a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  color: #f1f1f1;
+  transition: all 250ms;
+}
+
+.listaNav a:hover {
+  color: #bc7957;
+}

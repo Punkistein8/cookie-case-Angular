@@ -1,0 +1,76 @@
+p label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: rgb(93, 93, 93);
+}
+
+.flotante {
+  width: 400px;
+  height: 50vh;
+  background-color: rgb(214, 222, 228);
+  border-radius: 2%;
+  box-shadow: 8px 8px 8px rgb(49, 49, 49);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titulo{
+  text-align: center;
+  padding: 0.8em 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+}
+
+.primHr{
+  border-top: 1px solid rgb(93, 93, 93);
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+.plat{
+  padding: 10px 5px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+p{
+  padding-bottom: 5px;
+}
+
+.precio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio p {
+  font-size: 1.5em;
+  margin: 10px;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  color: #fff;
+  background: #829c25;
+  padding: 10px;
+}
+
+button:hover {
+  background: #677f1e;
+  cursor: pointer;
+}
